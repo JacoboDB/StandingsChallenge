@@ -1,39 +1,51 @@
 ﻿using Standings;
+using Standings.Helpers;
+using Standings.Parser;
+using Standings.Readers;
 
 
 class Program
 {
+    static InputReader? fileReader;
     static void Main()
     {
         bool continueLoop = false;
-        Console.WriteLine("---- Team Standings ----");
+        string inputOption = "";
+        ConsolePrinterHelper.startMessage();
+
+        //C:\\Users\\Jacob\\OneDrive\\Escritorio\\results.txt
         do
         {
-            Console.WriteLine("Please select the origin of your results:");
-            Console.WriteLine("1) From a file");
-            Console.WriteLine("2) Console interface");
-            Console.WriteLine("Type your selection: ");
-            string inputOption = Console.ReadLine();
-
-            if (inputOption == "1")// Read from file
-            {
-                Console.WriteLine("Type your path to the file: ");
-                string filePath = Console.ReadLine();
-                var fileReader = new FileReader();
-                string? fileContent = fileReader.readInput(filePath);
-                if (fileContent == null) break;
-
-            }
-            else if (inputOption == "2") // Read from cli
-            {
-            }
-            else
+            ConsolePrinterHelper.instructionsMessage();
+            inputOption = Console.ReadLine();
+            if (inputOption != "1" || inputOption != "2")
             {
                 continueLoop = true;
                 Console.WriteLine("Option not available!");
             }
 
         } while (continueLoop);
+
+        string? fileContent = null;
+        if (inputOption == "1")// Read from file
+        {
+            ConsolePrinterHelper.selectionMessage();
+            string filePath = Console.ReadLine();
+            fileReader = new FileReader();
+            fileContent = fileReader.readInput(filePath);
+
+        }
+        else if (inputOption == "2") // Read from cli
+        {
+        }
+
+        if (fileContent != null)
+        {
+            var standings = new MatchParser().parse(fileContent);
+            ConsolePrinterHelper.standingsTable(standings);
+        }
+
+        ConsolePrinterHelper.exitMessage();
 
     }
 }
