@@ -15,12 +15,9 @@ namespace Standings.Parser
 
         public Dictionary<string, int> parse(string input)
         {
-
-            Console.WriteLine(input);
             var matchesResults = input.Split(Environment.NewLine).ToList();
             foreach (string match in matchesResults)
             {
-                Console.WriteLine($"Parsing match {match}");
                 var teamsInMatch = match.Split(",");
                 var teamName1Splited = teamsInMatch[0].Trim().Split(" ");
                 var teamName2Splited = teamsInMatch[1].Trim().Split(" ");

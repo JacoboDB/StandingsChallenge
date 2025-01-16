@@ -18,7 +18,8 @@ class Program
         {
             ConsolePrinterHelper.instructionsMessage();
             inputOption = Console.ReadLine();
-            if (inputOption != "1" || inputOption != "2")
+            Console.WriteLine("Selection " + inputOption);
+            if (inputOption != "1" && inputOption != "2")
             {
                 continueLoop = true;
                 Console.WriteLine("Option not available!");
@@ -29,7 +30,7 @@ class Program
         string? fileContent = null;
         if (inputOption == "1")// Read from file
         {
-            ConsolePrinterHelper.selectionMessage();
+            ConsolePrinterHelper.filePathMessage();
             string filePath = Console.ReadLine();
             fileReader = new FileReader();
             fileContent = fileReader.readInput(filePath);
@@ -37,6 +38,9 @@ class Program
         }
         else if (inputOption == "2") // Read from cli
         {
+            ConsolePrinterHelper.cliInputMessage();
+            fileReader = new CLIReader();
+            fileContent = fileReader.readInput();
         }
 
         if (fileContent != null)

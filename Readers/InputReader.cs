@@ -2,6 +2,6 @@
 {
     interface InputReader
     {
-        public string? readInput(string? input = null);
+        public string? readInput(string? source = null);
     }
 }

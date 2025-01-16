@@ -21,9 +21,14 @@
             Console.WriteLine("---- Bye ----");
         }
 
-        public static void selectionMessage()
+        public static void filePathMessage()
         {
             Console.WriteLine("Type your path to the file: ");
+        }
+
+        public static void cliInputMessage()
+        {
+            Console.WriteLine("Enter the results match by match (press Enter on an empty line to finish):");
         }
 
         public static void standingsTable(Dictionary<string, int> standings)
@@ -32,9 +37,15 @@
             Console.WriteLine("== STANDINGS ==");
             foreach (var team in standings)
             {
-                Console.WriteLine(position + ". " + team.Key + ", " + team.Value + " pts");
+                Console.WriteLine(position + ". " + team.Key + ", " + team.Value + " " + getPointsText(team.Value));
                 position++;
             }
+        }
+
+        private static string getPointsText(int points)
+        {
+            if (points == 1) return "pt";
+            else return "pts";
         }
     }
 }

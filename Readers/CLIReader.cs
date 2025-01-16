@@ -2,9 +2,17 @@
 {
     public class CLIReader : InputReader
     {
-        public string? readInput(string? input = null)
+        public string? readInput(string? source = null)
         {
-            throw new NotImplementedException();
+            string result = "";
+            string line;
+
+            while (!string.IsNullOrEmpty(line = Console.ReadLine()))
+            {
+                if (result == "") result = line;
+                else result = result + Environment.NewLine + line;
+            }
+            return result;
         }
     }
 }

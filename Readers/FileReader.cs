@@ -10,7 +10,7 @@ namespace Standings
             {
                 try
                 {
-                    return File.ReadAllText(filePath);
+                    return File.ReadAllText(filePath).Trim();
                 }
                 catch (Exception ex)
                 {
