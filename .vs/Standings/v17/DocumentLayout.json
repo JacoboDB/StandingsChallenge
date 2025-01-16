@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jacob\\source\\repos\\Standings\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|c:\\users\\jacob\\source\\repos\\standings\\readers\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|solutionrelative:readers\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|c:\\users\\jacob\\source\\repos\\standings\\readers\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|solutionrelative:readers\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|c:\\users\\jacob\\source\\repos\\standings\\standings.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|solutionrelative:standings.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|c:\\users\\jacob\\source\\repos\\standings\\readers\\clireader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|solutionrelative:readers\\clireader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|c:\\users\\jacob\\source\\repos\\standings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15EC7B5F-D84A-4876-BC78-2039E9FC354F}|Standings.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileReader.cs",
+              "DocumentMoniker": "C:\\Users\\Jacob\\source\\repos\\Standings\\Readers\\FileReader.cs",
+              "RelativeDocumentMoniker": "Readers\\FileReader.cs",
+              "ToolTip": "C:\\Users\\Jacob\\source\\repos\\Standings\\Readers\\FileReader.cs",
+              "RelativeToolTip": "Readers\\FileReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:48:53.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CLIReader.cs",
+              "DocumentMoniker": "C:\\Users\\Jacob\\source\\repos\\Standings\\Readers\\CLIReader.cs",
+              "RelativeDocumentMoniker": "Readers\\CLIReader.cs",
+              "ToolTip": "C:\\Users\\Jacob\\source\\repos\\Standings\\Readers\\CLIReader.cs",
+              "RelativeToolTip": "Readers\\CLIReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:06:08.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Standings",
+              "DocumentMoniker": "C:\\Users\\Jacob\\source\\repos\\Standings\\Standings.csproj",
+              "RelativeDocumentMoniker": "Standings.csproj",
+              "ToolTip": "C:\\Users\\Jacob\\source\\repos\\Standings\\Standings.csproj",
+              "RelativeToolTip": "Standings.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T21:48:05.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputReader.cs",
+              "DocumentMoniker": "C:\\Users\\Jacob\\source\\repos\\Standings\\Readers\\InputReader.cs",
+              "RelativeDocumentMoniker": "Readers\\InputReader.cs",
+              "ToolTip": "C:\\Users\\Jacob\\source\\repos\\Standings\\Readers\\InputReader.cs",
+              "RelativeToolTip": "Readers\\InputReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:51:05.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jacob\\source\\repos\\Standings\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jacob\\source\\repos\\Standings\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:39:00.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

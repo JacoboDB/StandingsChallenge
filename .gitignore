@@ -1,0 +1,60 @@
+# Build directories
+bin/
+obj/
+
+# Development environment files
+.vscode/            # Visual Studio Code settings
+.idea/              # JetBrains Rider or IntelliJ IDEA settings
+*.suo               # Visual Studio solution user options
+*.user              # User-specific project settings
+*.userosscache      # User-specific OSS cache
+*.sln.docstates     # Solution-specific document states
+
+# NuGet packages
+*.nupkg             # NuGet package files
+*.snupkg            # NuGet symbol package files
+packages/           # NuGet package cache
+project.lock.json   # Old NuGet lock file
+project.fragment.lock.json
+artifacts/          # Build output artifacts
+
+# OS-specific files
+.DS_Store           # macOS system file
+Thumbs.db           # Windows thumbnail cache
+desktop.ini         # Windows desktop settings
+
+# Rider-specific files
+.idea/              # IntelliJ IDEA and Rider settings
+*.sln.iml           # IntelliJ IDEA solution file
+
+# Temporary or debugging files
+*.log               # Log files
+*.tlog              # Task log files
+*.log2              # Additional log files
+*.cache             # Cached files
+*.pdb               # Debugging symbols
+
+# Publish directories
+.publish/           # Directory for published applications
+publish/
+
+# Git-specific files
+*.orig              # Merge conflict backups
+
+# Code analysis tools
+.stylecop           # StyleCop settings
+*.editorconfig      # Editor configuration files
+
+# User-specific settings
+*.vs/               # Visual Studio working folder
+
+# Secret files (for .NET user-secrets)
+secrets.json
+.env                # Environment variable files
+
+# Docker-related files
+docker-compose.override.yml
+
+# Miscellaneous
+*.local             # Local configuration files
+*.swp               # Swap files (e.g., Vim)
