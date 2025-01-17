@@ -1,4 +1,5 @@
-﻿namespace Standings.Helpers
+﻿
+namespace Standings.Helpers
 {
     public static class ConsolePrinterHelper
     {
@@ -46,6 +47,11 @@
         {
             if (points == 1) return "pt";
             else return "pts";
+        }
+
+        internal static void incorrectInputMessage()
+        {
+            Console.WriteLine("Ooops! It looks like the entered text does not have the correct format. Please review.");
         }
     }
 }

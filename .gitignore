@@ -47,6 +47,7 @@ publish/
 
 # User-specific settings
 *.vs/               # Visual Studio working folder
+.vs
 
 # Secret files (for .NET user-secrets)
 secrets.json

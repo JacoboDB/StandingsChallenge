@@ -32,6 +32,7 @@ class Program
             ConsolePrinterHelper.filePathMessage();
             string filePath = Console.ReadLine();
             fileReader = new FileReader();
+
             fileContent = fileReader.readInput(filePath);
 
         }
@@ -44,8 +45,16 @@ class Program
 
         if (fileContent != null)
         {
-            var standings = new MatchParser().parse(fileContent);
-            ConsolePrinterHelper.standingsTable(standings);
+            try
+            {
+                var standings = new MatchParser().parse(fileContent);
+                ConsolePrinterHelper.standingsTable(standings);
+            }
+            catch (Exception)
+            {
+                ConsolePrinterHelper.incorrectInputMessage();
+            }
+
         }
 
         ConsolePrinterHelper.exitMessage();
