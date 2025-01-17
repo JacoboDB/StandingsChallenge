@@ -15,6 +15,8 @@ namespace Standings.Parser
 
         public Dictionary<string, int> parse(string input)
         {
+            reset();
+            if (string.IsNullOrEmpty(input)) return standings;
             var matchesResults = input.Split(Environment.NewLine).ToList();
             foreach (string match in matchesResults)
             {

@@ -1,6 +1,6 @@
 ﻿namespace Standings.Readers
 {
-    interface InputReader
+    public interface InputReader
     {
         public string? readInput(string? source = null);
     }

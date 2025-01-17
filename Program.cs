@@ -13,7 +13,6 @@ class Program
         string inputOption = "";
         ConsolePrinterHelper.startMessage();
 
-        //C:\\Users\\Jacob\\OneDrive\\Escritorio\\results.txt
         do
         {
             ConsolePrinterHelper.instructionsMessage();
