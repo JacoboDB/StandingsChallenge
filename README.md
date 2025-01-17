@@ -21,7 +21,7 @@ git clone https://github.com/JacoboDB/StandingsChallenge.git
 ### Build the Application
 
 ```bash
-cd your-repository-name
+cd Standings
 dotnet build
 ```
 
@@ -30,15 +30,16 @@ dotnet build
 Once the application is built, you can run it using the following command:
 
 ```bash
+cd Standings/Standings
 dotnet run
 ```
 
 Alternatively, you can run the compiled executable directly from the bin folder:
 
 ```bash
-cd bin/Debug/net5.0
-./your-console-app-name.exe   ## Windows
-./your-console-app-name       ## macOS/Linux
+cd bin/Debug/net8.0
+./Standings.exe   ## Windows
+./Standings    ## macOS/Linux
 ```
 
 ## Challenge
